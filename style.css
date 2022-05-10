@@ -1,0 +1,527 @@
+body {
+    font-size: 15pt;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ font-family:  'poppins', sans-serif;
+}
+h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: coral;
+
+  
+ }
+h2{ font-size : 1.8rem;
+   font-weight: 600
+  
+}
+h3{ 
+  font-size:1.4rem ;
+  font-weight: 800
+}
+h4{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+h4{
+  padding: 5px 0;
+}
+h5{
+  font-size :1rem;
+  font-weight:500;
+  color: black;
+ 
+}
+h6{ 
+  color: #D8D8D8;
+  font-weight : 500
+   
+}
+h22
+}
+
+p{
+  color: black ;
+
+  border-radius: 5pt 
+  
+}
+span{
+  color: black; 
+  background-color: white;
+  border-radius: 5pt 
+}
+pan{
+color: white 
+}
+.navbar button{
+  color :black ;
+background-color :b
+border-radius: 5pt ;
+width: 50px ;
+height: 30px ;
+border: none 
+  
+}
+
+#home  button{
+  font-size: 0.8rem;
+  font-weight: 700;
+  outline : none;
+  border: none;
+  background-color : black;
+  color: aliceblue ;
+  padding : 13px 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s ease 
+  
+  
+}
+#home button:hover{
+  background-color : coral
+}
+
+ .navbar button:hover{
+  background-color: coral
+}
+hr{
+  width: 350px;
+  height: ;
+  background-color: silver
+}
+.star{
+  padding: 10px 0;
+}
+.star i{
+  font-size: 0.8rem;
+}
+p1{
+  font-weight: 300
+}
+.navbar img{
+  height: 40%;
+  width: 40%
+}
+
+.navbar{
+  font-size: 20px;
+  
+}
+
+.navbar-light .navbar-nav .navbar-link{
+  padding: 0 20px;
+  color: black ;
+  transition: 0.3s ease ;
+  }
+
+.navbar-light .navbar-nav .navbar-link .navbar i.active {
+  color: coral
+}
+.navbar i{
+  font-size: 1.2rem;
+  padding:0 7px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease
+}
+
+#home{
+  background-image: url('back.jpg');
+  
+  background-repeat: no-repeat;
+  width: 100%;
+  height:100vh;
+  background-position: top 60px center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start
+  
+  
+}
+}
+#homespan{
+  color: coral
+}
+
+ #new .one img {
+   height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+#new img{
+  height: 100%;
+  width: 100%;
+}
+#new .one .details {
+  position: absolute ;
+  width: 100%;
+  height: 100%
+  top: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+#new .one:hover .details  {
+cursor: pointer;
+background-color: rgba(245, 178,178 ,0.7)
+}
+
+#new .one .details button {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: black ;
+  background:none;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  padding: 2.5px;
+  transform: translateY(70px);
+  transition: 0.3s ease;
+  border-radius: 5pt  ;
+  width: 100px ;
+  height: 40px ;
+  border-color: whitesmoke;
+   border: none
+  
+  
+  
+}
+
+#new .one button:hover {
+  background-color:  rgba(245, 178,178 ,0.7)
+
+  
+}
+
+#new .one {
+  color: black
+}
+#new .black {
+  color: black 
+}
+
+#new .one .details .xxx {
+  display: flex ;
+  justify-content: center ;
+  flex-direction: column;
+  align-items:flex-start ;
+  text-align: center;
+  
+}
+
+#new .one .details .blue  {
+  display:flex  ;
+  justify-content: center ;
+  flex-direction: column;
+  align-items:flex-start ;
+  text-align: center;
+  
+}
+
+#new .one .details .doc {
+  display: flex ;
+  justify-content: center ;
+  flex-direction: column;
+  align-items:flex-start;
+  text-align: center;
+  
+}
+
+#featured .xt{
+  display: flex ;
+  justify-content: center ;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+/* products */
+.product{
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+#featured .product img {
+  width: 300px;
+  height:300px ;
+  transition: 0.3s ease all;
+}
+ #featured .product:hover img{
+  opacity: 0.7;
+}
+
+#featured .product {
+  display: flex ;
+  justify-content: center ;
+  flex-direction: column;
+  align-items: center ;
+  text-align: center;
+}
+#featured .product button{
+  width: 90px ;
+  height:35px; 
+  background: coral;
+  transform: translateY(-20px);
+  opacity: 0;
+  transition: 0.3s all;
+  border-radius: 3pt;
+  font-weight:500;
+  color: white ;
+  border:none;
+  
+  
+}
+
+#featured .product:hover button {
+  transform: translateY(0);
+  opacity: 1;
+  
+}
+#banner{
+  
+  background-image: url('0.jpg');
+  
+  background-repeat: no-repeat;
+  width: 100%;
+  height:60vh;
+  background-position: top 70px center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start ;
+  
+  
+  
+}!
+#banner h4{
+  color: whitesmoke;
+  
+}
+#banner h1{
+  color: white ;
+}
+#banner button{
+  width: 110px; 
+  height:40px;
+  background-color: coral ;
+  border: none
+}
+
+#clothes .xt{
+  display: flex ;
+  justify-content: center ;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.product{
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+#clothes .product img {
+  width: 300px;
+  height:300px;
+  transition: 0.3s ease all;
+}
+ #clothes .product:hover img{
+  opacity: 0.7;
+}
+
+#clothes .product {
+  display: flex ;
+  justify-content: center ;
+  flex-direction: column;
+  align-items: center ;
+  text-align: center;
+}
+#clothes .product button{
+    width: 90px;
+    height:35px;
+  background: coral;
+  transform: translateY(-20px);
+  opacity: 0;
+  transition: 0.3s all;
+  border-radius: 3pt;
+  font-weight:500;
+  color: white ;
+  border:none;
+  
+  
+}
+
+#clothes .product:hover button {
+  transform: translateY(0);
+  opacity: 1;
+  
+}
+
+#watches .xt{
+  display: flex ;
+  justify-content: center ;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.product{
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+#watches .product img {
+  width: 300px;
+  height:300px;
+  transition: 0.3s ease all;
+}
+ #watches .product:hover img{
+  opacity: 0.7;
+}
+
+#watches .product {
+  display: flex ;
+  justify-content: center ;
+  flex-direction: column;
+  align-items: center ;
+  text-align: center;
+}
+#watches .product button{
+    width: 90px;
+    height:35px;
+  background: coral;
+  transform: translateY(-20px);
+  opacity: 0;
+  transition: 0.3s all;
+  border-radius: 3pt;
+  font-weight:500;
+  color: white ;
+  border:none;
+  
+  
+}
+
+#watches .product:hover button {
+  transform: translateY(0);
+  opacity: 1;
+  
+}
+
+
+#shoes .xt{
+  display: flex ;
+  justify-content: center ;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.product{
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+#shoes .product img {
+  width: 300px;
+  height:300px;
+  transition: 0.3s ease all;
+}
+ #shoes .product:hover img{
+  opacity: 0.7;
+}
+
+#shoes .product {
+  display: flex ;
+  justify-content: center ;
+  flex-direction: column;
+  align-items: center ;
+  text-align: center;
+}
+#shoes .product button{
+    width: 90px;
+    height:35px;
+  background: coral;
+  transform: translateY(-2""0px);
+  opacity: 0;
+  transition: 0.3s all;
+  border-radius: 3pt;
+  font-weight:500;
+  color: white ;
+  border:none;
+  
+  
+}
+
+#shoes .product:hover button {
+  transform: translateY(0);
+  opacity: 1;
+  
+}
+.copyright img{
+  height: 80%;
+  width: 80%
+}
+footer{
+  background-color: #222222
+}
+footer h5 {
+  color: #D8D8D8;
+  font-weight:700;
+  font-size: 1.2rem;
+}
+footer li {
+  padding-bottom: 4px;
+  
+}
+footer li a{
+  font-size: 0.8rem;
+  color: #999
+}
+footer li a:hover{
+   color:#D8D8D8;
+}
+footer p {
+  color : #999;
+  font-size: 0.8rem
+}
+footer img{
+  width: 40%;
+  height: 40%
+}
+  
+/* blog */
+
+#blog-container  .post-img{
+  overflow: hidden;
+  cursor: pointer ;
+  
+}
+
+ #blog-container .post img{
+   transition: 0.3s ease 
+ }
+    
+
+ #blog-container .post:hover img{
+    
+  transform: scale(1.3) rotate(-10deg);
+  opacity: 0.8 
+    
+  }
+ #blog-container .post:hover h3 {
+    
+  color: coral
+    
+  }
+#blog-container .post h6{
+  color: black 
+}
+#blog-home  hr{
+  width :250px 
+}
